@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <string name="app_name">OhMyPet</string>
+    <string name="facebook_app_id">802097937660779</string>
+    <string name="fb_login_protocol_scheme">fb802097937660779</string>
+    <string name="facebook_client_token">5c70681db3ec82e3507a6a0d6043ad40</string>
+    
+</resources>
