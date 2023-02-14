@@ -13,8 +13,8 @@ import 'navigation_home_screen.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized;
-  Firebase.initializeApp;
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   WidgetsFlutterBinding.ensureInitialized();
   await SystemChrome.setPreferredOrientations(<DeviceOrientation>[
     DeviceOrientation.portraitUp,
@@ -42,15 +42,16 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: AppTheme.textTheme,
-        platform: TargetPlatform.iOS,
+        platform: TargetPlatform.android,
       ),
       routes: {
+        //'/login': (context) => SignInGoogle(),
         '/login': (context) => Login(),
         '/drawer': (context) => HomeDrawer(),
         '/prueba': (context) => Login2(),
       },
-      //initialRoute: '/login',
-      initialRoute: '/prueba',
+      initialRoute: '/login',
+      //initialRoute: '/prueba',
     );
   }
 }
