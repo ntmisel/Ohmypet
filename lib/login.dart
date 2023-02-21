@@ -189,6 +189,7 @@
 
 import 'dart:convert';
 
+import 'package:best_flutter_ui_templates/2%20prueba-registro%20animal.dart';
 import 'package:best_flutter_ui_templates/dataUser.dart';
 import 'package:best_flutter_ui_templates/fitness_app/fitness_app_home_screen.dart';
 import 'package:best_flutter_ui_templates/navigation_home_screen.dart';
@@ -333,7 +334,7 @@ class _LoginState extends State<Login> {
 
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => NavigationHomeScreen()),
+        MaterialPageRoute(builder: (context) => Registro()),
       );
     } catch (e) {}
   }

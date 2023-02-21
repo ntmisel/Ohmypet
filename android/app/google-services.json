@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "3178806960-4oc3lif9otms8koogbf5ha9g80osj08n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ohmypet.terminus10",
+            "certificate_hash": "c61cce517e1fd7d8a44d03cbe01c81965a0d733d"
+          }
+        },
+        {
+          "client_id": "3178806960-hdrkms40pogmbq3s0smhcntuu69t4kto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ohmypet.terminus10",
+            "certificate_hash": "1ec6377291d630677fb8bacbd188dc09e54ea7d4"
+          }
+        },
+        {
           "client_id": "3178806960-96ckvc83cpo06nm7uhihbmrs57cjcd2d.apps.googleusercontent.com",
           "client_type": 3
         }

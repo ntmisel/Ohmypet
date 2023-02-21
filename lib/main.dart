@@ -48,10 +48,10 @@ class MyApp extends StatelessWidget {
         //'/login': (context) => SignInGoogle(),
         '/login': (context) => Login(),
         '/drawer': (context) => HomeDrawer(),
-        '/prueba': (context) => Login2(),
+        '/registro': (context) => Registro(),
       },
       initialRoute: '/login',
-      //initialRoute: '/prueba',
+      //initialRoute: '/registro',
     );
   }
 }
